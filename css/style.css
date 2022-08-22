@@ -10,7 +10,8 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
+  min-height: 800px;
 }
 
 a {
@@ -44,7 +45,8 @@ a {
   }
 
   .wrapper {
-    height: calc(100vh - var(--header-h) - var(--footer-h));
+    /* height: calc(100vh - var(--header-h) - var(--footer-h)); */
+    min-height: 800px;
   }
 
   header {
@@ -91,11 +93,11 @@ a {
   }
 
   footer {
-    position: absolute;
+    /* position: absolute; */
     height: var(--footer-h);
     width: 100%;
-    bottom: 0;
-    left: 0;
+    /* bottom: 0;
+    left: 0; */
     text-align: center;
     background-color: var(--footer-bg-color, lightgray);
   }
