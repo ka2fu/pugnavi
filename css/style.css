@@ -37,7 +37,7 @@ a {
 
 @media screen and (max-width: 670px) {
   :root {
-    --header-h: 10em;
+    --header-h: 8em;
     --footer-h: 4.85em;
     --button-h: 3.5em;
     --button-w: 70%;
