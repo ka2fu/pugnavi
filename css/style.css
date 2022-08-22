@@ -48,6 +48,10 @@ a {
     min-height: calc(106vh - var(--header-h) - var(--footer-h));
   }
 
+  .inner {
+    margin: var(--header-h) 0;
+  }
+
   header {
     height: var(--header-h);
     width: 100%;
