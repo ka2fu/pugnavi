@@ -45,8 +45,7 @@ a {
   }
 
   .wrapper {
-    /* height: calc(100vh - var(--header-h) - var(--footer-h)); */
-    min-height: 800px;
+    min-height: calc(106vh - var(--header-h) - var(--footer-h));
   }
 
   header {
